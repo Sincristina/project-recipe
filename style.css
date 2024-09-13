@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin: auto;
+    width: 40%;
+}
+
+.container-flex{
+   background-color: #FFF;
+   padding: 20px;
+   border-radius: 15px;
+}
+
+.image-omelette{
+    width:100%;
+    border-radius: 15px;
+}
+
+.title-receipe{
+    margin: 30px 0 10px 0;
+    font-weight: 400;
+}
+
+
+.details-about-receipe{
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+.details-receipe{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color:hsl(332, 51%, 32%)
+}
+.details-about-nutrition, .details-about-ingredients, .details-about-instructions{
+    margin-top: 10px;
+    padding: 15px;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+td, th {
+    border-bottom: 1px solid;
+    padding-top: 15px;
+    
+  }
+
+
+  @media only screen and (max-width: 844px) {
+    body{
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .container-flex{
+        padding: 0;
+        border-radius: 0;
+     }
+
+     .image-omelette{
+        border-radius: 0;
+    }
+    .description-recipe{
+        margin: 0 15px 0 15px;
+    }
+    }
+  
+    /* 768 */
